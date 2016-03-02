@@ -1,0 +1,18 @@
+a {
+	text-transform: none;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 27%;
+}
+
+div.mj {
+	width: 70%;
+}

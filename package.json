@@ -1,0 +1,15 @@
+{
+  "name": "fun",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "latest",
+    "cheerio": "latest",
+    "twilio": "latest",
+    "path": "latest",
+    "request": "latest",
+    "body-parser": "latest"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.2"
+  }
+}
