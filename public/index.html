@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NodeJS Test App</title>
+	<title>News</title>
 </head>
 
 <link rel="stylesheet" type="text/css" href="/stylesheet.css">
@@ -9,25 +9,23 @@
 
 <body>
 	<header>
-		<h2>Wat's da enternets dink of aberkromby?</h2>
-		<div class="mj">
-			<img src="http://i.huffpost.com/gen/1587585/images/o-MIKE-JEFFRIES-ABERCROMBIE-facebook.jpg" height="200" width="300">
-		</div>
+		<h2>Abercrombie & Fitch News</h2>
+		<p>Click the 'Get A&F News' button to get the latest company news provided by Google News search API.</p>
 	</header>
 
 
-	<section>
-		<button id="submit">Get A&F News</button>
-		<form>
-			<input type="text" name="search_value" id="search_value">
-			<input type="button" id="search_submit" value="Search Submit"></input>
-		</form>
+	<section id="search-section">
+		<div class="form-wrapper">
+			<button id="submit">Get A&F News</button>
+			<form>
+				<input type="text" name="search_value" id="search_value">
+				<input type="button" id="search_submit" value="Search Submit"></input>
+			</form>
+		</div>
 	</section>
 
 	<section id="anf-news">
-		<ul>
-
-		</ul>
+		<ul></ul>
 	</section>
 
 <script type="text/javascript" src="/app.js"></script>

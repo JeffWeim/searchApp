@@ -30,23 +30,18 @@
 				console.log(error);
 			}
 		});
-
 	});
 
 	// Data Handler Functions
 	var handleData = function(data) {
-		console.log(data);
-
 		var mappedData = $.map(data.responseData.entries, function(i) {
 			return i;
 		});
 
+		$('li').remove();
+
 		$.each(mappedData, function(index, value) {
-			$('#anf-news').append('<li><a href=" ' + value.link + ' ">' + value.title + '</a></li>' + value.contentSnippet + '</br>');
+			$('#anf-news').append('<li><a href=" ' + value.link + ' ">' + value.title + '</a></li><li>' + value.contentSnippet + '</li>');
 		});
-
 	};
-
-
-
 })();

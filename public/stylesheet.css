@@ -16,3 +16,21 @@ header {
 div.mj {
 	width: 70%;
 }
+
+button#submit {
+    margin-right: 10px;
+}
+
+input#search_submit {
+    margin-left: 5px;
+}
+
+#search-section {
+
+}
+
+.form-wrapper {
+	margin: 0 auto;
+    display: flex;
+    width: 27%;
+}
