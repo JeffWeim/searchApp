@@ -1,36 +1,32 @@
-a {
-	text-transform: none;
-}
+.search-app a {
+  text-transform: none; }
 
-li {
-	list-style: none;
-}
+.search-app li {
+  list-style: none; }
 
-header {
-	display: block;
-    margin: 0 auto;
-    position: relative;
-    width: 27%;
-}
+.search-app h1, .search-app h2, .search-app h3, .search-app h4, .search-app h5, .search-app p {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
 
-div.mj {
-	width: 70%;
-}
+.search-app header {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 29%; }
 
-button#submit {
-    margin-right: 10px;
-}
+.search-app .form-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; }
 
-input#search_submit {
-    margin-left: 5px;
-}
+.search-app .form-wrapper #search_value {
+  height: 40px;
+  width: 220px; }
 
-#search-section {
+.search-app .form-wrapper #search_submit {
+  height: 46px;
+  width: 90px; }
 
-}
-
-.form-wrapper {
-	margin: 0 auto;
-    display: flex;
-    width: 27%;
-}
+.search-app .form-wrapper #submit {
+  margin-right: 4px; }

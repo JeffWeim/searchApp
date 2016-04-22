@@ -1,0 +1,19 @@
+.form-wrapper {
+	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+	#search_value {
+		height: 40px;
+		width: 220px;
+	}
+
+	#search_submit {
+		height: 46px;
+		width: 90px;
+	}
+
+	#submit {
+		margin-right: 4px;
+	}
+}
