@@ -15,6 +15,8 @@
 	});
 
 	$('#search_submit').on('click', function() {
+		event.preventDefault();
+
 		var query = $('#search_value').val();
 
 		$.ajax({
@@ -41,7 +43,7 @@
 		$('li').remove();
 
 		$.each(mappedData, function(index, value) {
-			$('#anf-news').append('<li><a href=" ' + value.link + ' ">' + value.title + '</a></li><li>' + value.contentSnippet + '</li>');
+			$('#news-output').append('<li><a href=" ' + value.link + ' ">' + value.title + '</a></li><li>' + value.contentSnippet + '</li>');
 		});
 	};
 })();
