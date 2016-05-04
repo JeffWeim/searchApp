@@ -1,32 +1,81 @@
-.search-app a {
-  text-transform: none; }
+@import "https://www.google.com/fonts#UsePlace:use/Collection:Lato";
+@import "https://www.google.com/fonts#UsePlace:use/Collection:Roboto:300italic";
+#search-app {
+  margin: 0 !important; }
 
-.search-app li {
+#search-app body {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+#search-app a {
+  text-transform: none;
+  color: black; }
+
+#search-app b {
+  color: #FF4081; }
+
+#search-app li {
   list-style: none; }
 
-.search-app h1, .search-app h2, .search-app h3, .search-app h4, .search-app h5, .search-app p {
+#search-app h1, #search-app h2, #search-app h3, #search-app h4, #search-app h5, #search-app p {
   display: flex;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
-.search-app header {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  width: 29%; }
+#search-app p, #search-app tr, #search-app td, #search-app a, #search-app b, #search-app h1, #search-app h2, #search-app h3, #search-app h4, #search-app h5 {
+  font-family: 'Roboto', sans-serif; }
 
-.search-app .form-wrapper {
+#search-app header {
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.26);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#search-app header h2 {
+  font-weight: 100; }
+
+#search-app header p {
+  margin: 0;
+  padding-bottom: 2rem; }
+
+#search-app #search-section {
+  border-bottom: 1px solid #858585;
+  padding-bottom: 2rem; }
+
+#search-app #search-section .form-wrapper {
   margin: 0 auto;
   display: flex;
   justify-content: center; }
 
-.search-app .form-wrapper #search_value {
+#search-app #search-section .form-wrapper #search_value {
   height: 40px;
   width: 220px; }
 
-.search-app .form-wrapper #search_submit {
+#search-app #search-section .form-wrapper #search_submit {
   height: 46px;
   width: 90px; }
 
-.search-app .form-wrapper #submit {
+#search-app #search-section .form-wrapper #submit {
   margin-right: 4px; }
+
+#search-app #news-output {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem; }
+
+#search-app #news-output #index {
+  padding-right: .4rem;
+  font-weight: bold;
+  font-size: 1.6prem; }
+
+#search-app #help-text {
+  color: #858585;
+  margin: 2rem 0; }
+
+#search-app #help-text h3 {
+  font-weight: 100; }

@@ -5,7 +5,7 @@ var request = require('request');
 var bodyParser = require('body-parser');
 
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3001;
 
 // Middleware --------------------------
 app.use(express.static(path.join(__dirname, 'public'))); // make everything in /public available b/c it's static

@@ -1,4 +1,9 @@
-.search-app {
+#search-app {
+	margin: 0 !important;
+
 	@import "partials/base";
+	@import "partials/fonts";
 	@import "partials/form";
+	@import "partials/results";
+	@import "partials/help-text";
 }

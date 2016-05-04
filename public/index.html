@@ -7,12 +7,14 @@
 <link rel="stylesheet" type="text/css" href="/stylesheet.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-<body class="search-app">
-	<header>
+<body id="search-app">
+	<header id="title">
 		<h2>Abercrombie & Fitch News</h2>
-		<p>Click the 'Get A&F News' button to get the latest company news provided by Google News search API.</p>
 	</header>
 
+	<section id="help-text">
+		<h3>Click the 'Get A&F News' button to get the latest company news provided by the Google News search API.</h3>
+	</section>
 
 	<section id="search-section">
 		<div class="form-wrapper">
@@ -24,8 +26,8 @@
 		</div>
 	</section>
 
-	<section id="news-output">
-		<ul></ul>
+	<section >
+		<table id="news-output"></table>
 	</section>
 
 <script type="text/javascript" src="/app.js"></script>

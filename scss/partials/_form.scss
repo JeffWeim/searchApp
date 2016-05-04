@@ -1,19 +1,24 @@
-.form-wrapper {
-	margin: 0 auto;
-    display: flex;
-    justify-content: center;
+#search-section {
+	border-bottom: 1px solid #858585;
+	padding-bottom: 2rem;
 
-	#search_value {
-		height: 40px;
-		width: 220px;
-	}
+	.form-wrapper {
+		margin: 0 auto;
+	    display: flex;
+	    justify-content: center;
 
-	#search_submit {
-		height: 46px;
-		width: 90px;
-	}
+		#search_value {
+			height: 40px;
+			width: 220px;
+		}
 
-	#submit {
-		margin-right: 4px;
+		#search_submit {
+			height: 46px;
+			width: 90px;
+		}
+
+		#submit {
+			margin-right: 4px;
+		}
 	}
 }

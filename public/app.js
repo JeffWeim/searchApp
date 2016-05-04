@@ -1,6 +1,6 @@
 (function(){
 
-	//AJAX Calls
+	// AJAX Calls
 	$('#submit').on('click', function(){
 		$.ajax({
 			url: '/info',
@@ -40,10 +40,18 @@
 			return i;
 		});
 
-		$('li').remove();
+		$('tr').remove();
 
-		$.each(mappedData, function(index, value) {
-			$('#news-output').append('<li><a href=" ' + value.link + ' ">' + value.title + '</a></li><li>' + value.contentSnippet + '</li>');
+		$.each(mappedData, function(index, data) {
+
+			$('#news-output').append(
+				'<tr>' +
+					'<td>' + '<span id="index">' + (index + 1)+ ')</span>' + '<a href=" ' + data.link + ' ">' + data.title + '</a></td>' +
+				'</tr>' +
+				'<tr>' +
+					'<td>' + data.contentSnippet + '</td>' +
+				'</tr>'
+				);
 		});
 	};
 })();
