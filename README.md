@@ -1,3 +1,3 @@
 # searchApp
 
-Shits & Giggles
+Search App that calls Google's News API and returns the 10 latest results.
